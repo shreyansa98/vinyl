@@ -1,0 +1,21 @@
+name: 💡 Feature or scene idea
+description: Suggest an improvement or a new scene
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like Vinyl to do? Sketches and reference photos are great for scene ideas.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it be nice?
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Contributing
+      options:
+        - label: I'd like to help build this

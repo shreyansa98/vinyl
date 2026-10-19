@@ -1,0 +1,52 @@
+name: 🐛 Bug report
+description: Something isn't working as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report this! Vinyl is in beta, so every report helps.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead? Screenshots or screen recordings are very welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Play a song in YouTube Music (Chrome)
+        2. Switch to the After Hours scene
+        3. …
+  - type: dropdown
+    id: player
+    attributes:
+      label: Music player
+      multiple: true
+      options:
+        - YouTube Music / YouTube in a browser
+        - Spotify
+        - Apple Music
+        - Other
+  - type: input
+    id: browser
+    attributes:
+      label: Browser (if relevant)
+      placeholder: Chrome 131, Safari 18, Arc…
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac
+      placeholder: macOS 15.6, MacBook Pro M3
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Vinyl version
+      description: Shown at the bottom of Vinyl's menu
+      placeholder: 0.1.0 beta
+    validations:
+      required: true

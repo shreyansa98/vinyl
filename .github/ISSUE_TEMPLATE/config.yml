@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions, setups & show-and-tell
+    url: https://github.com/shreyansa98/vinyl/discussions
+    about: Ask questions and share screenshots of your desk in Discussions.
+  - name: 🔒 Report a security issue
+    url: https://github.com/shreyansa98/vinyl/security/advisories/new
+    about: Please report vulnerabilities privately.

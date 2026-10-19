@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build (Apple Silicon + Intel)
+        run: ./build.sh universal
+      - name: Render scenes
+        run: |
+          swift scripts/make-demo-covers.swift /tmp/covers
+          build/Vinyl.app/Contents/MacOS/Vinyl --snapshot /tmp/snaps /tmp/covers/golden-hour.jpg 1440 900 \
+            /tmp/covers/night-swim.jpg /tmp/covers/velvet-static.jpg /tmp/covers/tangerine.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scene-renders
+          path: /tmp/snaps/*.png
