@@ -9,7 +9,7 @@
 Vinyl turns whatever you're listening to into a living desk scene: the album on a stand, the record spinning on a turntable, and your last few records piled up next to it.<br>
 **YouTube Music, Spotify, Apple Music, or anything playing in your browser.** Free and open source.
 
-[![Download the beta](https://img.shields.io/badge/Download-macOS%20beta-black?style=for-the-badge&logo=apple)](https://github.com/shreyansa98/vinyl/releases/latest)
+[![Download the beta](https://img.shields.io/badge/Download-macOS%20beta-black?style=for-the-badge&logo=apple)](https://github.com/shreyansa98/vinyl/releases)
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%20Sonoma%2B-blue)
 ![Status: beta](https://img.shields.io/badge/status-beta-orange)
@@ -88,7 +88,7 @@ If it shows up in **Control Center › Now Playing**, Vinyl can put it on the tu
 
 **Requirements:** macOS 14 Sonoma or later, on Apple Silicon or Intel. Developed and tested on macOS 15 (Apple Silicon); the Intel build is untested so far.
 
-1. **Download** the latest `Vinyl-x.y.z-beta.dmg` from [**Releases**](https://github.com/shreyansa98/vinyl/releases/latest).
+1. **Download** the latest `Vinyl-x.y.z-beta.dmg` from [**Releases**](https://github.com/shreyansa98/vinyl/releases).
 2. **Open the DMG** and drag **Vinyl** into **Applications**.
 3. **Open Vinyl** from Applications. A record icon appears in your menu bar, and your desktop becomes a desk.
 4. **Play some music.** That's it.
