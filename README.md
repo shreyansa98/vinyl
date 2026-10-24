@@ -9,14 +9,14 @@
 Vinyl turns whatever you're listening to into a living desk scene: the album on a stand, the record spinning on a turntable, and your last few records piled up next to it.<br>
 **YouTube Music, Spotify, Apple Music, or anything playing in your browser.** Free and open source.
 
-[![Download the beta](https://img.shields.io/badge/Download-macOS%20beta-black?style=for-the-badge&logo=apple)](https://github.com/shreyansa98/vinyl/releases)
+[![Download the beta](https://img.shields.io/badge/Download-macOS%20beta-black?style=for-the-badge&logo=apple)](https://github.com/app-dialect/vinyl/releases)
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%20Sonoma%2B-blue)
 ![Status: beta](https://img.shields.io/badge/status-beta-orange)
 ![Swift](https://img.shields.io/badge/Swift-SwiftUI-F05138?logo=swift&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Build](https://github.com/shreyansa98/vinyl/actions/workflows/build.yml/badge.svg)](https://github.com/shreyansa98/vinyl/actions/workflows/build.yml)
-[![Stars](https://img.shields.io/github/stars/shreyansa98/vinyl?style=social)](https://github.com/shreyansa98/vinyl/stargazers)
+[![Build](https://github.com/app-dialect/vinyl/actions/workflows/build.yml/badge.svg)](https://github.com/app-dialect/vinyl/actions/workflows/build.yml)
+[![Stars](https://img.shields.io/github/stars/app-dialect/vinyl?style=social)](https://github.com/app-dialect/vinyl/stargazers)
 
 <br>
 
@@ -84,11 +84,11 @@ If it shows up in **Control Center › Now Playing**, Vinyl can put it on the tu
 ## Download & install
 
 > [!IMPORTANT]
-> **Vinyl is in beta.** It works well day to day, but expect rough edges. Please [report anything odd](https://github.com/shreyansa98/vinyl/issues/new/choose); it really helps.
+> **Vinyl is in beta.** It works well day to day, but expect rough edges. Please [report anything odd](https://github.com/app-dialect/vinyl/issues/new/choose); it really helps.
 
 **Requirements:** macOS 14 Sonoma or later, on Apple Silicon or Intel. Developed and tested on macOS 15 (Apple Silicon); the Intel build is untested so far.
 
-1. **Download** the latest `Vinyl-x.y.z-beta.dmg` from [**Releases**](https://github.com/shreyansa98/vinyl/releases).
+1. **Download** the latest `Vinyl-x.y.z-beta.dmg` from [**Releases**](https://github.com/app-dialect/vinyl/releases).
 2. **Open the DMG** and drag **Vinyl** into **Applications**.
 3. **Open Vinyl** from Applications. A record icon appears in your menu bar, and your desktop becomes a desk.
 4. **Play some music.** That's it.
@@ -213,7 +213,7 @@ No catch. MIT licensed, no ads, no data collection. If you like it, a ⭐ helps 
 You need macOS 14+ and the Xcode Command Line Tools (`xcode-select --install`). Full Xcode isn't required.
 
 ```sh
-git clone https://github.com/shreyansa98/vinyl.git
+git clone https://github.com/app-dialect/vinyl.git
 cd vinyl
 ./build.sh install      # builds Vinyl.app, copies it to /Applications, launches it
 ```
@@ -280,17 +280,17 @@ Want to help? These are great places to start. Comment on an issue or open a PR.
 
 Pull requests are very welcome, from a typo fix to a whole new scene. Read [**CONTRIBUTING.md**](CONTRIBUTING.md) for the 2-minute setup, the project layout, and how to attach before/after renders to your PR.
 
-Found a bug? [Open an issue](https://github.com/shreyansa98/vinyl/issues/new/choose). Have an idea or want to show off your setup? Start a [discussion](https://github.com/shreyansa98/vinyl/discussions).
+Found a bug? [Open an issue](https://github.com/app-dialect/vinyl/issues/new/choose). Have an idea or want to show off your setup? Start a [discussion](https://github.com/app-dialect/vinyl/discussions).
 
 ## Support the project
 
 If Vinyl made your desk a little nicer:
 
 - ⭐ **Star the repo.** It's the single biggest thing that helps others discover it.
-- 📸 **Share a screenshot** of your setup in [Show & Tell](https://github.com/shreyansa98/vinyl/discussions).
+- 📸 **Share a screenshot** of your setup in [Show & Tell](https://github.com/app-dialect/vinyl/discussions).
 - 🐛 **Report bugs** and 💡 **suggest scenes**.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=shreyansa98/vinyl&type=Date)](https://star-history.com/#shreyansa98/vinyl&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=app-dialect/vinyl&type=Date)](https://star-history.com/#app-dialect/vinyl&Date)
 
 ## License
 
